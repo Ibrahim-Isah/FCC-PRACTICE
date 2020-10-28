@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FCC Practice</title>
+        <link rel="stylesheet" href="survey.css">
+        <meta name="viewport" content="width=device-width , initial-scale = 1.0">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1 id="title" class="text-center">PRACTICE SURVEY FORM</h1>
+                <p id="description" class="description text-center">Thank you for taking your time to help us improve this platform</p>
+            </header>
+                <form action="" method="" id="survey-form">
+                    <div class="form-group">
+                        <label id="form-label" for="name">Name</label>
+                        <input
+                        type="text"
+                        id="name"
+                        class="form-control"
+                        placeholder="Enter your name...."
+                        required>
+                    </div>
+                    <div class="form-group">
+                        <label id="form-label" for="email">Email</label>
+                        <input
+                        type="email"
+                        id="email"
+                        class="form-control"
+                        placeholder="example@mail.com"
+                        required>
+                    </div>
+                    <div class="form-group">
+                        <label id="form-label" for="number">Age<span class="clue">(Optional)</span></label>
+                        
+                        <input
+                        type="number"
+                        id="number"
+                        min="10"
+                        max="99"
+                        class="form-control"
+                        placeholder="Enter your age..."
+                        >
+                    </div>
+                    <div class="form-group">
+                        <p>Which option best describes your current role?</p>
+                        <div >
+                            <select class="form-control">
+                                <option disabled selected value>Select current role</option>
+                                <option for="student">Student</option>
+                                <option for="job">Fulltime Job</option>
+                                <option for="learner">Fulltime Learner</option>
+                                <option for="nottosay">Prefer Not to Say</option>
+                                <option for="other">Others</option>
+                            </select>
+    
+                        </div>
+                        <div class="form-group">
+                            <p>Would you recommend freecode camp for a friend?</p>
+                            <label><input
+                            type="radio"
+                            name="user-permission"
+                            class="form-radio"
+                            value="definitely">Definitely</label>
+
+                            <label><input
+                            type="radio"
+                            name="user-permission"
+                            class="form-radio"
+                            value="maybe">Maybe</label>
+
+                            <label><input
+                            type="radio"
+                            name="user-permission"
+                            class="form-radio"
+                            value="not sure">Not Sure</label>
+                        </div>
+                        <div class="form-group"><p>Whats your favorite feature?</p>
+                            <div >
+                                
+                                <select id="most-select" class="form-control" required>
+                                    <option disabled selected value>Select an option</option>
+                                    <option for="projects">Projects</option>
+                                    <option for="Challenges">Challenges</option>
+                                    <option for="Community">Community</option>
+                                    <option for="Open source">Open source</option>
+                                </select>
+        
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <p>Whats your most preferred Course?
+                                <span class="clue">(select as much as you like)</span>
+                            </p>
+                            <label><input
+                            type="checkbox"
+                            name="prefer"
+                            class="form-checkbox"
+                            value="frontend">Front-end Projects</label>
+
+                            <label><input
+                            type="checkbox"
+                            name="prefer"
+                            class="form-checkbox"
+                            value="backend">Back-end Projects</label>
+
+                            <label><input
+                                type="checkbox"
+                                name="prefer"
+                                class="form-checkbox"
+                                value="data-visaul">Data Visualization
+                            </label>
+
+                            <label><input
+                                type="checkbox"
+                                name="prefer"
+                                class="form-checkbox"
+                                value="challenge">Challenges
+                            </label>
+
+                            <label><input
+                                type="checkbox"
+                                name="prefer"
+                                class="form-checkbox"
+                                value="open-source">Open Source Community
+                            </label>
+
+                            <label><input
+                                type="checkbox"
+                                name="prefer"
+                                class="form-checkbox"
+                                value="help">Gitters Help Rooms
+                            </label>
+
+                            <label><input
+                                type="checkbox"
+                                name="prefer"
+                                class="form-checkbox"
+                                value="videos">Videos
+                            </label>
+
+                            <label><input
+                                type="checkbox"
+                                name="prefer"
+                                class="form-checkbox"
+                                value="meetup">City Meetups
+                            </label>
+
+                            <label><input
+                                type="checkbox"
+                                name="prefer"
+                                class="form-checkbox"
+                                value="wiki">Wiki
+                            </label>
+
+                            <label><input
+                                type="checkbox"
+                                name="prefer"
+                                class="form-checkbox"
+                                value="forums">Forums
+                            </label>
+
+                            <label><input
+                                type="checkbox"
+                                name="prefer"
+                                class="form-checkbox"
+                                value="more">Additional Courses
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label for="Comment">Any Comments or Suggestions?</label>
+                            <textarea 
+                            name="comments"
+                            id="textarea"
+                            class="textarea"
+                            placeholder="Type your Comments..."></textarea>
+
+                        </div>
+                        <div class="form-group">
+                            <input
+                            type="submit"
+                            name="submit"
+                            id="submit"
+                            class="submit"
+                            value="SUBMIT">
+                        </div>
+                        
+                    </div>
+                </form>
+                   
+
+        </div>
+    </body>
+</html>

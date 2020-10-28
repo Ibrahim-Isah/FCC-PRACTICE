@@ -1,0 +1,86 @@
+#main{
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+header{
+
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    display: grid;
+    grid-area: auto;
+    padding: 3px 0 3px 12%;
+    background-image: linear-gradient(rgba(0,0,0,0.7) , rgba(0,0,0,0.7) ), url("https://huge_dt_db.storage.googleapis.com/wp-content/uploads/2020/09/21041751/Emir-Shehu-Idris-of-Zazzau.jpg");
+    background-size: cover;
+}
+#subtitle{
+    font-size: 15px;
+    font-family: cursive;
+    padding-left: 14%;
+}
+#img-div{
+    background-color: whitesmoke;
+    margin:auto 50px;
+
+}
+img{
+    max-width: 100%;
+}
+.img-caption{
+    text-align: justify;
+}
+#card{
+    height:auto;
+    width:250px;
+    background-color:whitesmoke;
+    border: 2px solid #f2f2f2;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    margin-left: 50px;
+    padding: 5px 0 5px 10px;
+}
+#tribute-info{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#history{
+    font-size:20px;
+    padding: 10px 20px;
+    background-color: pink;
+    border: none;
+    border-radius: 10px;
+    font-family: cursive;
+}
+footer{
+    background-color: blanchedalmond;
+    height: 200px;
+    font-size: 30px;
+}
+footer a{
+    left: 30%;
+    top: 50px;
+}
+@media (min-width:1000px){
+    header{
+        font-size: 5vw;
+    }
+    #subtitle{
+        font-size: 3vw;
+    }
+    img{
+        margin:auto 10%;
+    }
+    #card{
+        width: 300px;
+        margin: 50px auto;
+    }
+    #tribute-info{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    #history{
+        font-size: 2vw;
+        padding: 10px 20px;
+    }
+
+}
